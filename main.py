@@ -1,4 +1,5 @@
 import requests
+import dotenv
 
 # Notion API 的设置
 NOTION_API_KEY = 'secret_ORwyPwlsnaxoqLxrJRKA36ckCRVtq3rZBL6kQISRPoS'
