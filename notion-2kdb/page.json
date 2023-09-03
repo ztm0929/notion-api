@@ -5,7 +5,7 @@
       "object": "page",
       "id": "2ed348f4-5a3d-4f07-91f1-a599230654ee",
       "created_time": "2023-09-03T03:14:00.000Z",
-      "last_edited_time": "2023-09-03T04:28:00.000Z",
+      "last_edited_time": "2023-09-03T05:19:00.000Z",
       "created_by": {
         "object": "user",
         "id": "306924c8-db8c-4d99-88d2-5dcfd1f91bc8"
@@ -35,9 +35,9 @@
           "id": "eqhI",
           "type": "select",
           "select": {
-            "id": "7b9bb2ec-d974-42f3-a5c6-e0ac3e9926f6",
-            "name": "Invicible",
-            "color": "orange"
+            "id": "10306160-532a-4ef7-ad43-c1f3b57025e8",
+            "name": "Invincible",
+            "color": "green"
           }
         },
         "ID": { "id": "mkZO", "type": "number", "number": 10000 },
@@ -50,14 +50,14 @@
       "object": "page",
       "id": "89cb60ba-f049-447a-8d64-e334c57962b6",
       "created_time": "2023-09-03T03:14:00.000Z",
-      "last_edited_time": "2023-09-03T03:14:00.000Z",
+      "last_edited_time": "2023-09-03T05:19:00.000Z",
       "created_by": {
         "object": "user",
         "id": "306924c8-db8c-4d99-88d2-5dcfd1f91bc8"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "306924c8-db8c-4d99-88d2-5dcfd1f91bc8"
+        "id": "bd382a4c-5d41-4fed-9330-abcf4a534133"
       },
       "cover": null,
       "icon": null,
@@ -68,7 +68,15 @@
       "archived": false,
       "properties": {
         "Theme": { "id": "ETfj", "type": "select", "select": null },
-        "Collection": { "id": "eqhI", "type": "select", "select": null },
+        "Collection": {
+          "id": "eqhI",
+          "type": "select",
+          "select": {
+            "id": "10306160-532a-4ef7-ad43-c1f3b57025e8",
+            "name": "Invincible",
+            "color": "green"
+          }
+        },
         "ID": { "id": "mkZO", "type": "number", "number": null },
         "Name": { "id": "title", "type": "title", "title": [] }
       },
@@ -79,14 +87,14 @@
       "object": "page",
       "id": "db8ef841-38cb-4089-ab57-87645af65667",
       "created_time": "2023-09-03T03:14:00.000Z",
-      "last_edited_time": "2023-09-03T03:36:00.000Z",
+      "last_edited_time": "2023-09-03T05:19:00.000Z",
       "created_by": {
         "object": "user",
         "id": "306924c8-db8c-4d99-88d2-5dcfd1f91bc8"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "306924c8-db8c-4d99-88d2-5dcfd1f91bc8"
+        "id": "bd382a4c-5d41-4fed-9330-abcf4a534133"
       },
       "cover": null,
       "icon": null,
@@ -97,7 +105,15 @@
       "archived": false,
       "properties": {
         "Theme": { "id": "ETfj", "type": "select", "select": null },
-        "Collection": { "id": "eqhI", "type": "select", "select": null },
+        "Collection": {
+          "id": "eqhI",
+          "type": "select",
+          "select": {
+            "id": "10306160-532a-4ef7-ad43-c1f3b57025e8",
+            "name": "Invincible",
+            "color": "green"
+          }
+        },
         "ID": { "id": "mkZO", "type": "number", "number": null },
         "Name": { "id": "title", "type": "title", "title": [] }
       },
