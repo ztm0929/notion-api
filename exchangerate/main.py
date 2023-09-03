@@ -1,5 +1,6 @@
 import requests
 import json
+import datetime
 
 with open('exchangerate/page_id.json', 'r') as file:
     PAGES = json.load(file)
@@ -61,7 +62,7 @@ def update_notion_page(currency: str, rate: float) -> None:
 # 主函数
 def main_optimized():
     exchange_data = fetch_exchange_rate("CNY")
-    save_to_file(exchange_data, 'ExchangeRate.json')
+    save_to_file(exchange_data, 'exchangerate/ExchangeRate.json')
     rates_to_update = {
         currency: custom_round(1 / exchange_data['conversion_rates'].get(currency))
         for currency in config["PAGE_IDS"].keys()
@@ -70,7 +71,11 @@ def main_optimized():
     for currency, rate in rates_to_update.items():
         print(f"{currency} 对 CNY 的汇率是 {rate}")
         update_notion_page(currency, rate)
+    with open('exchangerate/execution.log', 'a') as log_file:
+        log_file.write(f"Execution time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - Notion 页面已更新\n")
+
     print("Notion 页面已更新")
+    
 
 # 当脚本作为主程序运行时执行主函数
 if __name__ == "__main__":
