@@ -1,6 +1,7 @@
 import requests
 import json
 import datetime
+import os
 
 with open('exchangerate/page_id.json', 'r') as file:
     PAGES = json.load(file)
@@ -73,7 +74,7 @@ def main_optimized():
         update_notion_page(currency, rate)
     with open('exchangerate/execution.log', 'a') as log_file:
         log_file.write(f"Execution time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')} - Notion 页面已更新\n")
-
+    os.system("osascript -e 'display notification \"Notion 页面已更新\" with title \"任务完成\"'")
     print("Notion 页面已更新")
     
 
