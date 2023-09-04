@@ -1,10 +1,11 @@
 import requests
 import json
+import os
 
 database_url = 'https://api.notion.com/v1/databases/7c0db327f09945aeb139a666ee0aac2e/query'
 
 headers = {
-    "Authorization": "Bearer secret_ORwyPwlsnaxoqLxrJRKA36ckCRVtq3rZBL6kQISRPoS",
+    "Authorization": f"Bearer {os.environ.get('Notion_API_KEY')}",
     "Notion-Version": "2022-06-28",
     "Content-Type": "application/json"
 }
