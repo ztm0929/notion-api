@@ -4,16 +4,21 @@ import datetime
 from dotenv import load_dotenv
 import os
 
-# 从环境变量提取需要用到的API KEY，ExchangeRate的用于获取最新汇率，Notion的用于查询要更新的页面page_id以及更新
+# 从环境变量提取需要用到的 API KEY，ExchangeRate 的用于获取最新汇率，Notion 的用于查询要更新的页面 page_id 并进行更新
 load_dotenv()
 ExchangeRate_API_KEY = os.environ.get('Exchange_API_KEY')
-NOtion_API_KEY       = os.environ.get('Notion_API_KEY')
+Notion_API_KEY       = os.environ.get('Notion_API_KEY')
 
-base_currency = ''
+# Notion 的请求头
+Notion_Headers = {
+    'Authorization' : f'Bearer {Notion_API_KEY}'
+    'Notion-Version': '2022-06-28',
+    'Content-Type'  : 'application/json'
+}
 
-# 基本配置信息：ExchangeRate请求URL（GET方法）、Notion查询URL（POST方法）和更新URL（PATCH方法）
+
+# 基本配置信息：Notion查询URL（POST方法）和更新URL（PATCH方法）
 config = {
-    "exchangerate_standard_endpoint_url": f'https://v6.exchangerate-api.com/v6/{ExchangeRate_API_KEY}/latest/{base_currency}',
     "NOTION_API_URL": "https://api.notion.com/v1/pages/{page_id}",
     "NOTION_VERSION": "2022-06-28",
     "PAGE_IDS": PAGES
@@ -21,16 +26,31 @@ config = {
 
 # 定义获取获取指定基础货币汇率的函数
 def fetch_exchange_rate(base_currency: str) -> dict:
-    # 定义基础 URL
+    # ExchangeRate 标准端点 URL，使用 GET 方法，参见官方文档：https://www.exchangerate-api.com/docs/standard-requests
     exchangerate_standard_endpoint_url = f'https://v6.exchangerate-api.com/v6/{ExchangeRate_API_KEY}/latest/{base_currency}'
     response = requests.get(exchangerate_standard_endpoint_url)
     response.raise_for_status()
     return response.json()
 
-# 将数据保存为 JSON 文件
+# 将获取到的词典（汇率数据）保存为 JSON 文件
 def save_to_file(data: dict, filename: str) -> None:
     with open(filename, 'w', encoding='utf-8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
+
+# 配置要查询的数据库 ID：database_id，区别于查询后得到的页面 ID：page_id
+# Notion 查询数据库 URL，使用 POST 方法，过滤器作为请求体（可选），参见文档：https://developers.notion.com/reference/post-database-query
+database_id = 'dcd97c6fd1c7490ab5893b653c3907c5'
+query_database_url = f'https://api.notion.com/v1/databases/{database_id}/query'
+
+# payload = {
+#     "filter": {
+#         "property": "Exchange Rate to CNY",
+#         "number": {
+#             "is_not_empty": True
+#         }
+#     }
+# }
+
 
 
 
@@ -66,20 +86,7 @@ def extract_mappings_from_urls(urls):
 
     return url_mappings
 
-# Existing configuration and payload
-base_url = 'https://api.notion.com/v1/databases/dcd97c6fd1c7490ab5893b653c3907c5/query'
-headers = {
-    "Notion-Version": "2022-06-28",
-    "Content-Type": "application/json"
-}
-payload = {
-    "filter": {
-        "property": "Exchange Rate to CNY",
-        "number": {
-            "is_not_empty": True
-        }
-    }
-}
+
 
 # Call the new function to fetch all results
 all_pages = get_all_pages_from_notion(base_url, headers, payload)
