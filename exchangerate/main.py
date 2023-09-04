@@ -6,12 +6,12 @@ import os
 
 # 从环境变量提取需要用到的 API KEY，ExchangeRate 的用于获取最新汇率，Notion 的用于查询要更新的页面 page_id 并进行更新
 load_dotenv()
-ExchangeRate_API_KEY = os.environ.get('Exchange_API_KEY')
+ExchangeRate_API_KEY = os.environ.get('ExchangeRate_API_KEY')
 Notion_API_KEY       = os.environ.get('Notion_API_KEY')
 
 # Notion 的请求头
 Notion_Headers = {
-    'Authorization' : f'Bearer {Notion_API_KEY}'
+    'Authorization' : f'Bearer {Notion_API_KEY}',
     'Notion-Version': '2022-06-28',
     'Content-Type'  : 'application/json'
 }
@@ -21,7 +21,7 @@ Notion_Headers = {
 config = {
     "NOTION_API_URL": "https://api.notion.com/v1/pages/{page_id}",
     "NOTION_VERSION": "2022-06-28",
-    "PAGE_IDS": PAGES
+    
 }
 
 # 定义获取获取指定基础货币汇率的函数
@@ -41,7 +41,7 @@ def save_to_file(data: dict, filename: str) -> None:
 # Notion 查询数据库 URL，使用 POST 方法，过滤器作为请求体（可选），参见文档：https://developers.notion.com/reference/post-database-query
 database_id = 'dcd97c6fd1c7490ab5893b653c3907c5'
 query_database_url = f'https://api.notion.com/v1/databases/{database_id}/query'
-
+query_database_payload = {}
 # payload = {
 #     "filter": {
 #         "property": "Exchange Rate to CNY",
@@ -51,19 +51,16 @@ query_database_url = f'https://api.notion.com/v1/databases/{database_id}/query'
 #     }
 # }
 
-
-
-
 #
-def get_all_pages_from_notion(base_url, headers, payload):
+def get_all_pages_from_notion(query_database_url, Notion_Headers, query_database_payload):
     all_results = []
     start_cursor = None
 
     while True:
         if start_cursor:
-            payload['start_cursor'] = start_cursor
+            query_database_payload['start_cursor'] = start_cursor
 
-        response = requests.post(base_url, headers=headers, json=payload).json()
+        response = requests.post(query_database_url, headers=Notion_Headers, json=query_database_payload).json()
 
         all_results.extend(response['results'])
 
@@ -75,7 +72,7 @@ def get_all_pages_from_notion(base_url, headers, payload):
     return all_results
 
 def extract_mappings_from_urls(urls):
-    """从给定的 URL 列表中提取所需的键值对格式。"""
+    # 从给定的 URL 列表中提取所需的键值对格式
     url_mappings = {}
     for url in urls:
         parts = url.split('/')
@@ -89,7 +86,7 @@ def extract_mappings_from_urls(urls):
 
 
 # Call the new function to fetch all results
-all_pages = get_all_pages_from_notion(base_url, headers, payload)
+all_pages = get_all_pages_from_notion(query_database_url, Notion_Headers, query_database_payload)
 
 # Extract URLs from all pages
 notion_urls = [page["url"] for page in all_pages if "url" in page and page["url"] is not None]
@@ -102,12 +99,6 @@ with open('exchangerate/page_id.json', 'w') as file:
     json.dump(mappings, file)
 
 print("json file has been saved!")
-
-
-
-with open('exchangerate/page_id.json', 'r') as file:
-    PAGES = json.load(file)
-
 
 def custom_round(number):
     # 将数字转为字符串
@@ -126,22 +117,20 @@ def custom_round(number):
     return round(number, 2)
 
 
-
+with open('exchangerate/page_id.json', 'r') as file:
+    PAGES = json.load(file)
 
 # 更新 Notion 页面的汇率
 def update_notion_page(currency: str, rate: float) -> None:
-    notion_page_url = config["NOTION_API_URL"].format(page_id=config["PAGE_IDS"][currency])
-    headers = {
-        "Authorization": "Bearer " + config['API_KEY'],
-        "Notion-Version": config["NOTION_VERSION"],
-        "Content-Type": "application/json"
-    }
-    payload = {
+    # update_page_props_url = config["NOTION_API_URL"].format(page_id=config["PAGE_IDS"][currency])
+    page_id = PAGES[currency]
+    update_page_props_url = f'https://api.notion.com/v1/pages/{page_id}'
+    update_page_props_payload = {
         "properties": {
             "Exchange Rate to CNY": rate
         }
     }
-    response_notion = requests.patch(notion_page_url, headers=headers, json=payload)
+    response_notion = requests.patch(update_page_props_url, headers=Notion_Headers, json=update_page_props_payload)
     response_notion.raise_for_status()
 
 # 主函数
@@ -150,7 +139,7 @@ def main_optimized():
     save_to_file(exchange_data, 'exchangerate/ExchangeRate.json')
     rates_to_update = {
         currency: custom_round(1 / exchange_data['conversion_rates'].get(currency))
-        for currency in config["PAGE_IDS"].keys()
+        for currency in PAGES.keys()
         if exchange_data['conversion_rates'].get(currency) is not None
     }
     for currency, rate in rates_to_update.items():
