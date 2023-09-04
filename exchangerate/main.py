@@ -96,7 +96,7 @@ mappings = extract_mappings_from_urls(notion_urls)
 
 # Save the mappings to a JSON file
 with open('exchangerate/page_id.json', 'w') as file:
-    json.dump(mappings, file)
+    json.dump(mappings, file, ensure_ascii=False, indent=4)
 
 print("json file has been saved!")
 
