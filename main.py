@@ -1,7 +1,8 @@
 import requests
+import os
 
 # Notion API 的设置
-NOTION_API_KEY = 'secret_ORwyPwlsnaxoqLxrJRKA36ckCRVtq3rZBL6kQISRPoS'
+NOTION_API_KEY = os.environ.get('Notion_API_KEY')
 NOTION_API_ENDPOINT = "https://api.notion.com/v1/pages"
 NOTION_PARENT_PAGE_ID = '37c9da3125db4edfa7579415a521bffd'
 
