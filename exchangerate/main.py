@@ -116,14 +116,10 @@ def custom_round(number):
     # 如果数字大于或等于1，将其四舍五入到2位小数
     return round(number, 2)
 
-
-with open('exchangerate/page_id.json', 'r') as file:
-    PAGES = json.load(file)
-
 # 更新 Notion 页面的汇率
 def update_notion_page(currency: str, rate: float) -> None:
     # update_page_props_url = config["NOTION_API_URL"].format(page_id=config["PAGE_IDS"][currency])
-    page_id = PAGES[currency]
+    page_id = mappings[currency]
     update_page_props_url = f'https://api.notion.com/v1/pages/{page_id}'
     update_page_props_payload = {
         "properties": {
@@ -139,7 +135,7 @@ def main_optimized():
     save_to_file(exchange_data, 'exchangerate/ExchangeRate.json')
     rates_to_update = {
         currency: custom_round(1 / exchange_data['conversion_rates'].get(currency))
-        for currency in PAGES.keys()
+        for currency in mappings.keys()
         if exchange_data['conversion_rates'].get(currency) is not None
     }
     for currency, rate in rates_to_update.items():
