@@ -1,19 +1,106 @@
 import requests
 import json
 import datetime
+from dotenv import load_dotenv
 import os
 
-with open('exchangerate/page_id.json', 'r') as file:
-    PAGES = json.load(file)
+# 从环境变量提取需要用到的API KEY，ExchangeRate的用于获取最新汇率，Notion的用于查询要更新的页面page_id以及更新
+load_dotenv()
+ExchangeRate_API_KEY = os.environ.get('Exchange_API_KEY')
+NOtion_API_KEY       = os.environ.get('Notion_API_KEY')
 
-# 配置信息
+base_currency = ''
+
+# 基本配置信息：ExchangeRate请求URL（GET方法）、Notion查询URL（POST方法）和更新URL（PATCH方法）
 config = {
-    "API_KEY": "secret_ORwyPwlsnaxoqLxrJRKA36ckCRVtq3rZBL6kQISRPoS",
-    "EXCHANGE_API_URL": "https://v6.exchangerate-api.com/v6/{api_version}/latest/{base_currency}",
+    "exchangerate_standard_endpoint_url": f'https://v6.exchangerate-api.com/v6/{ExchangeRate_API_KEY}/latest/{base_currency}',
     "NOTION_API_URL": "https://api.notion.com/v1/pages/{page_id}",
     "NOTION_VERSION": "2022-06-28",
     "PAGE_IDS": PAGES
 }
+
+# 定义获取获取指定基础货币汇率的函数
+def fetch_exchange_rate(base_currency: str) -> dict:
+    # 定义基础 URL
+    exchangerate_standard_endpoint_url = f'https://v6.exchangerate-api.com/v6/{ExchangeRate_API_KEY}/latest/{base_currency}'
+    response = requests.get(exchangerate_standard_endpoint_url)
+    response.raise_for_status()
+    return response.json()
+
+# 将数据保存为 JSON 文件
+def save_to_file(data: dict, filename: str) -> None:
+    with open(filename, 'w', encoding='utf-8') as file:
+        json.dump(data, file, ensure_ascii=False, indent=4)
+
+
+
+#
+def get_all_pages_from_notion(base_url, headers, payload):
+    all_results = []
+    start_cursor = None
+
+    while True:
+        if start_cursor:
+            payload['start_cursor'] = start_cursor
+
+        response = requests.post(base_url, headers=headers, json=payload).json()
+
+        all_results.extend(response['results'])
+
+        if response.get('has_more'):
+            start_cursor = response['next_cursor']
+        else:
+            break
+
+    return all_results
+
+def extract_mappings_from_urls(urls):
+    """从给定的 URL 列表中提取所需的键值对格式。"""
+    url_mappings = {}
+    for url in urls:
+        parts = url.split('/')
+        if len(parts) >= 1:
+            last_part = parts[-1]
+            key, value = last_part.split('-')
+            url_mappings[key] = value
+
+    return url_mappings
+
+# Existing configuration and payload
+base_url = 'https://api.notion.com/v1/databases/dcd97c6fd1c7490ab5893b653c3907c5/query'
+headers = {
+    "Notion-Version": "2022-06-28",
+    "Content-Type": "application/json"
+}
+payload = {
+    "filter": {
+        "property": "Exchange Rate to CNY",
+        "number": {
+            "is_not_empty": True
+        }
+    }
+}
+
+# Call the new function to fetch all results
+all_pages = get_all_pages_from_notion(base_url, headers, payload)
+
+# Extract URLs from all pages
+notion_urls = [page["url"] for page in all_pages if "url" in page and page["url"] is not None]
+
+# Extract mappings from URLs
+mappings = extract_mappings_from_urls(notion_urls)
+
+# Save the mappings to a JSON file
+with open('exchangerate/page_id.json', 'w') as file:
+    json.dump(mappings, file)
+
+print("json file has been saved!")
+
+
+
+with open('exchangerate/page_id.json', 'r') as file:
+    PAGES = json.load(file)
+
 
 def custom_round(number):
     # 将数字转为字符串
@@ -32,17 +119,7 @@ def custom_round(number):
     return round(number, 2)
 
 
-# 获取指定基础货币的汇率
-def fetch_exchange_rate(base_currency: str) -> dict:
-    exchange_url = config["EXCHANGE_API_URL"].format(api_version="8c647a751dcfa69079eade22", base_currency=base_currency)
-    response = requests.get(exchange_url)
-    response.raise_for_status()
-    return response.json()
 
-# 将数据保存为 JSON 文件
-def save_to_file(data: dict, filename: str) -> None:
-    with open(filename, 'w', encoding='utf-8') as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
 
 # 更新 Notion 页面的汇率
 def update_notion_page(currency: str, rate: float) -> None:
