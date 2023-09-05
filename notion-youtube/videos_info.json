@@ -1,0 +1,182 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "g_dEM1x2xAPkWZAfaKFUevzTd5M",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "HK",
+    "pageInfo": {
+        "totalResults": 701,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "qopHbelhwE81bbYFnK22H3iCYGw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NJjhcYExYKI"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-04T22:00:38Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Best Jumpshot Comparison : Steph Curry Jumpshot in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Best Jumpshot VS + Curry Jumpshot in 2K24.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NJjhcYExYKI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NJjhcYExYKI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NJjhcYExYKI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-04T22:00:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rXo_ns0efyEclPBbY8Ut8RkHABY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hlA5J7bgxRE"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-04T19:00:30Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Template Builds Tier List : Who&#39;s the Best NBA Player Template Build ?",
+                "description": "2K24 NBA Player Template Builds Tier List Template Builds Link: https://www.nba2klab.com/nba2k-build-templates #nba2k24 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hlA5J7bgxRE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hlA5J7bgxRE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hlA5J7bgxRE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-04T19:00:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iwl0E7A3ZLfJUZtNLqQpw97GFvU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oqAjsD9g1Ss"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-04T17:36:38Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Shooting Badges Caps : Best Build Tips in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Shooting Badges + Player Build Tips.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oqAjsD9g1Ss/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oqAjsD9g1Ss/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oqAjsD9g1Ss/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-04T17:36:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "sYLG7GCqt9FhnX7hsnl5UNjJjQU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "yMTGMapygN8"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-03T22:00:21Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Speed Booster Badge Cap +Best Builder Tips in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA Badges + Builder Tips.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/yMTGMapygN8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/yMTGMapygN8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/yMTGMapygN8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-03T22:00:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "sd_IFDDqSrtTf8xCI4yaFZgewSQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pXMQACUlQUg"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-03T18:26:01Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Best Build Guide for 6&#39;7 Lockdown Defenders",
+                "description": "NBA 2K24 Best Build Guide + How to Use Builder #nba2k24 #2k24 #nba2klab ▻ Subscribe to Premium: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pXMQACUlQUg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pXMQACUlQUg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pXMQACUlQUg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-03T18:26:01Z"
+            }
+        }
+    ]
+}
