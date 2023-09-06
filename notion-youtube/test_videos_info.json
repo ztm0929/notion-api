@@ -1,0 +1,1712 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "iOx3Ou7uakUwWu82yqvAjY29g08",
+    "nextPageToken": "CDIQAA",
+    "regionCode": "CN",
+    "pageInfo": {
+        "totalResults": 702,
+        "resultsPerPage": 50
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "qopHbelhwE81bbYFnK22H3iCYGw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NJjhcYExYKI"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-04T22:00:38Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Best Jumpshot Comparison : Steph Curry Jumpshot in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Best Jumpshot VS + Curry Jumpshot in 2K24.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NJjhcYExYKI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NJjhcYExYKI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NJjhcYExYKI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-04T22:00:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rXo_ns0efyEclPBbY8Ut8RkHABY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hlA5J7bgxRE"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-04T19:00:30Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Template Builds Tier List : Who&#39;s the Best NBA Player Template Build ?",
+                "description": "2K24 NBA Player Template Builds Tier List Template Builds Link: https://www.nba2klab.com/nba2k-build-templates #nba2k24 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hlA5J7bgxRE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hlA5J7bgxRE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hlA5J7bgxRE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-04T19:00:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iwl0E7A3ZLfJUZtNLqQpw97GFvU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oqAjsD9g1Ss"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-04T17:36:38Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Shooting Badges Caps : Best Build Tips in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Shooting Badges + Player Build Tips.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oqAjsD9g1Ss/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oqAjsD9g1Ss/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oqAjsD9g1Ss/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-04T17:36:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "sYLG7GCqt9FhnX7hsnl5UNjJjQU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "yMTGMapygN8"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-03T22:00:21Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Speed Booster Badge Cap +Best Builder Tips in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA Badges + Builder Tips.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/yMTGMapygN8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/yMTGMapygN8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/yMTGMapygN8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-03T22:00:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "sd_IFDDqSrtTf8xCI4yaFZgewSQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pXMQACUlQUg"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-03T18:26:01Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Best Build Guide for 6&#39;7 Lockdown Defenders",
+                "description": "NBA 2K24 Best Build Guide + How to Use Builder #nba2k24 #2k24 #nba2klab ▻ Subscribe to Premium: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pXMQACUlQUg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pXMQACUlQUg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pXMQACUlQUg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-03T18:26:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "MLn0VJXISHi_-u1R5Ui6A3tckYg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fdwZlY1074s"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-02T23:41:43Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Dunk Meter Contact Dunks for Standing Dunks #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Dunk Meter for Contact Dunks Standing.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fdwZlY1074s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fdwZlY1074s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fdwZlY1074s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-02T23:41:43Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "KLCj2hroN0V14imr3ikXpS1y0Qk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "P6ky23t73bs"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-02T19:21:17Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "ALL NBA 2K24 Badge Tier Height Restrictions Tool : Badge Tiers Breakdown in 2K24",
+                "description": "NBA 2K24 Badge Tier Restrictions by Height Link: https://www.nba2klab.com/badge-tier-unlocks #nba2klab #nba2k24 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/P6ky23t73bs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/P6ky23t73bs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/P6ky23t73bs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-02T19:21:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pOT34QaooA9z8UfZ9qu789_RTI4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "dj_BfC9vZJk"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-02T15:13:30Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Blowout Dribble : Best Dribble Moves in 2K24 ? #nba2k24 #2k24 #2k",
+                "description": "Blowout Dribble Move in NBA 2K24.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dj_BfC9vZJk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dj_BfC9vZJk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dj_BfC9vZJk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-02T15:13:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "CQugbyTVQKrqpBl3pTHQsnGTlqw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "qzA_96hRO4k"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-02T02:34:58Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Builder LIVE Complete Breakdown: Badges, Height, Attributes, &amp; MORE",
+                "description": "Talking NBA 2k24 Builder with Koza Koza: https://www.youtube.com/c/Koza25 #NBA2KLab #NBA2K24 ▻ Subscribe to Premium: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qzA_96hRO4k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qzA_96hRO4k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qzA_96hRO4k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-02T02:34:58Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "4UuJQUm5PfvT5FD4wziq4iSmh3s",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "LOSA5GfKH3U"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-01T22:28:20Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "All NBA 2K24 Badge Requirements Tool : Badge Unlock Thresholds in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Badge Requirements + Thresholds.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/LOSA5GfKH3U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/LOSA5GfKH3U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/LOSA5GfKH3U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-01T22:28:20Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "jFJmJKkeIbqKr3Gls_1xiZwSu_U",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pO_-7qOB6bc"
+            },
+            "snippet": {
+                "publishedAt": "2023-09-01T16:43:14Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NEW NBA 2K24 MyPLAYER Builder Tips: Badges, Builds, + Attributes Explained",
+                "description": "How to Use NBA 2K24 MyPlayer Builder #nba2klab #nba2k24 ▻ Subscribe to Premium: https://www.nba2klab.com/register ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pO_-7qOB6bc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pO_-7qOB6bc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pO_-7qOB6bc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-09-01T16:43:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "FjEUhtU6MoLxNHqU3D07ftDSCX4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "FTPHkWinTWc"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-31T22:00:07Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Best Badges + New Controls : Right Stick Ripper Gameplay in 2K24 #nba2k24 #2k24 #2k",
+                "description": "Best Badges in NBA 2K24 + New Controls.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FTPHkWinTWc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FTPHkWinTWc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FTPHkWinTWc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-31T22:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "-3Wv-7W3c2LAhAXd1QI0cg5JPLU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "tdkJ7cv2cBM"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-31T20:20:07Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Badge Unlock Thresholds + All Badge Requirements You NEED in 2K24",
+                "description": "nba2klab #nba2k24 Badge Unlock Tool: https://www.nba2klab.com/badge-unlock-levels ▻ Subscribe to Premium: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/tdkJ7cv2cBM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/tdkJ7cv2cBM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/tdkJ7cv2cBM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-31T20:20:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "YEAuJSl7CSBzBbpanbcN9PiWdkE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "t7COrRNrM94"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-31T17:32:15Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Speed Boosting Dribble Move Patch : Gameplay Update in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Speed Boosting Patch.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/t7COrRNrM94/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/t7COrRNrM94/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/t7COrRNrM94/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-31T17:32:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "8ZwwgCE4HCM_tz7QBo_vOR-eDzI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "choLxZrM7MQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-30T21:10:31Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Best Badges : Blow-by Badge Gameplay in 2K24 #nba2k24 #2k24 #2k",
+                "description": "Best Badges in 2K24 : New Blow-By Badge.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/choLxZrM7MQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/choLxZrM7MQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/choLxZrM7MQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-30T21:10:31Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xF_QSLMCb_7xBbDg887Rv5WNU5M",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "xzL8ddzSaU8"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-30T18:07:37Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 All New Shot Meters : Shot Meter Update in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Shot Meters ALL NEW.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xzL8ddzSaU8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xzL8ddzSaU8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xzL8ddzSaU8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-30T18:07:37Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "b9ZvYt1PV8SFUnhX8oq2NPoLluo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "6DnftAM8ys0"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-30T15:11:08Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 NEW Badges Gameplay : Is Speed Booster and Blow-By Effective ?",
+                "description": "NBA2KLab #NBA2K24 ▻ Subscribe to Premium: https://www.nba2klab.com/register ▻ Subscribe to NBA2KLab on YouTube: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6DnftAM8ys0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6DnftAM8ys0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6DnftAM8ys0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-30T15:11:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IkkT2Sbt36Qe5E5jZBYKrjT9BTs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "L2QbXj4x7Qw"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-28T19:07:18Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Gameplay News : Badge System Update in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Gameplay News + Badges Update.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/L2QbXj4x7Qw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/L2QbXj4x7Qw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/L2QbXj4x7Qw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-28T19:07:18Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xfpYThlXq2ynbIs80YJUuRh2QSQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "bFdXjlAUH0A"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-27T16:35:03Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Shooting Gameplay News : Shooting Badges Update in 2K24 #nba2k24 #2k24 #2k",
+                "description": "Shooting Gameplay News 2K24.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bFdXjlAUH0A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bFdXjlAUH0A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bFdXjlAUH0A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-27T16:35:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "NQohW5LSCrz5tE3a9AZOO-oEdRI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5B_farJU3eI"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-26T15:19:05Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Shooting Badges Update : Shooting Gameplay NEWS in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Shooting Badges Update + NEWS.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5B_farJU3eI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5B_farJU3eI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5B_farJU3eI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-26T15:19:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pfk6ZSKeDGhXsMESJrmAvx3Kn5E",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "0q8l_QWWXtc"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-25T19:40:58Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 NEW Badges Update : Defensive Badge Changes in 2K24 #nba2k24 #2k24 #nba2k",
+                "description": "NBA 2K24 NEW Badges Gameplay Update.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0q8l_QWWXtc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0q8l_QWWXtc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0q8l_QWWXtc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-25T19:40:58Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Zt3LCBIZyYzxBHYZo_LuVIuHrPs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "f45QFvwLm40"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-25T16:00:26Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Badges Update : Finishing + Shooting Badges Removed in 2K24 News #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Badges Gameplay News.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/f45QFvwLm40/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/f45QFvwLm40/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/f45QFvwLm40/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-25T16:00:26Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Q5BmG_sQ31kWN5hnfpGcXVywkJE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "G2tk5bb4rao"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-24T19:00:58Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Shot Meter + Dribble Package Changes : Gameplay News in 2K24 #nba2k24 #2k24  #gaming",
+                "description": "NBA 2K24 Shot Meter + Dribble Package Updates.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G2tk5bb4rao/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G2tk5bb4rao/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G2tk5bb4rao/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-24T19:00:58Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "2Ru4BplAFDa4QBFwe4iWVD7UnuU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "V4NOn1fEPtQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-23T19:06:52Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Builder News : MyPlayer Builder Max Height in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 MyPlayer Builder News.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/V4NOn1fEPtQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/V4NOn1fEPtQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/V4NOn1fEPtQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-23T19:06:52Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "cRThHdgv4B0u-d3Tgpb_6wfWvUA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "QkE9JcXA25U"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-22T20:28:53Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 MyNBA News + Update : Young Kobe vs Mamba Kobe in 2K24 vs 2K23 #nba2k24 #2k24 #nba2k",
+                "description": "NBA 2K24 Kobe vs 2K23 Kobe. Gameplay News in 2K24.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QkE9JcXA25U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QkE9JcXA25U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QkE9JcXA25U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-22T20:28:53Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "VITTMPLWMsI1AzuZEVeiLmoPRjk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "j9tMxBjv-40"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-21T18:33:32Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Badge System Update : How to Get Badges in 2K24 #nba2k24 #2k24 #nba2k",
+                "description": "NBA 2K24 How to Get Badges + Badge System Update.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/j9tMxBjv-40/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/j9tMxBjv-40/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/j9tMxBjv-40/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-21T18:33:32Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Ei7mXXcpn0XyciHMuU92P2NwJFk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "n_JLD2xtdgY"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-18T19:00:22Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Shot Meter Updates + Jumpshot Green Window News in 2K24 #nba2k24 #2k24 #2k",
+                "description": "2K24 Shot Meter + Jumpshot Updates.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/n_JLD2xtdgY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/n_JLD2xtdgY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/n_JLD2xtdgY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-18T19:00:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UGGO4fIjbQM-p9JJp_-i-vaW7Vs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KY4VQdeEKto"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-17T17:00:11Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Gameplay News : ProPlay in 2K24 vs 2K23 Sigs #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Dribble Moves + Jumpshot Update.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KY4VQdeEKto/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KY4VQdeEKto/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KY4VQdeEKto/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-17T17:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mvQLujsakBUcugXvZpZoeZYz6_E",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GeEK3mXsRAg"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-16T22:00:14Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Gameplay News: Shot Timing Visual Cue Setting in 2K24 #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Shot Timing + Jumpshot Update.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GeEK3mXsRAg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GeEK3mXsRAg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GeEK3mXsRAg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-16T22:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "y2fK0VDe3dfzW11HRj2FrfmW-ng",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ke_SJ60-V34"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-15T18:29:13Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Shooting , Dribble Moves , + Gameplay Update #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 Shooting + Gameplay Update.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ke_SJ60-V34/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ke_SJ60-V34/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ke_SJ60-V34/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-15T18:29:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "VwmFnr9LIZq53zkqqMfFBE-0tkE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_yDTo1DrPqM"
+            },
+            "snippet": {
+                "publishedAt": "2023-08-09T16:40:00Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K24 Player Ratings + 2K24 News : Jokic vs Embiid #nba2k24 #2k24 #2k",
+                "description": "NBA 2K24 News + 2K24 Player Ratings.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_yDTo1DrPqM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_yDTo1DrPqM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_yDTo1DrPqM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-08-09T16:40:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pRQ_uKQ0VytB-gsaezdqFoDzBLA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Xw8-ZeFd1EY"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-27T22:22:28Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Dribble Moves + Beginners Dribble Tutorial in 2K23 (Trae vs MJ) #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Beginners Dribble Tutorial + Best Dribble Moves.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Xw8-ZeFd1EY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Xw8-ZeFd1EY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Xw8-ZeFd1EY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-27T22:22:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "56MzmjfN5WlxLLjBFNfGGdjcsTQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "bRnaaU7JEvA"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-25T19:00:16Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "Guess the NBA Player : NBA 2K Edition + NBA Quiz #nba #nba2k #nba2k23",
+                "description": "NBA 2K Quiz : Guess the NBA Player 2K Edition.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bRnaaU7JEvA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bRnaaU7JEvA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bRnaaU7JEvA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-25T19:00:16Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pBOabmHNKLJlqsRhSPE7RsGjiqM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hxxy8JygQc4"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-16T16:30:14Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Shooting Tips : Jumpshot Timing Secrets in 2K23 #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Shooting Tips + 2K23 Jumpshot Secrets.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hxxy8JygQc4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hxxy8JygQc4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hxxy8JygQc4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-16T16:30:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IT4nJXxns4mDFC0Cl-YGt8j4epo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MA0wcjHQfVc"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-13T22:00:11Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Dunk Meter VS : How to Dunk in 2K23 #nba2k23 #2k23 #2k",
+                "description": "Dunk Meters in NBA 2K23 + How to Dunk More NBA2KLab: https://www.nba2klab.com/",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MA0wcjHQfVc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MA0wcjHQfVc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MA0wcjHQfVc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-13T22:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "0ltazGQWYA2fKLNhMMijZw-n98A",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7JgXhtPZrEU"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-10T22:28:47Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Jumpshot Meter vs No Shot Meter : Best Shooting Tips in 2K23 #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Jumpshot Meter vs No Shot Meter. 2K23 Shooting Tips.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7JgXhtPZrEU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7JgXhtPZrEU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7JgXhtPZrEU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-10T22:28:47Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "FtIhW4ioeEsf13vZdzRiP94wPvw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "kAqMmYJwZ1A"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-07T19:37:28Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Dribble Moves + Beginners Dribble Tutorial in 2K23 #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Best Beginner Dribble Moves Tutorial.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kAqMmYJwZ1A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kAqMmYJwZ1A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kAqMmYJwZ1A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-07T19:37:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "nW2YgIWMn4UF4CM94VCt63l6FN8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "X-fvLOv3i1c"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-30T19:31:03Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Jumpshots for All Builds in Season 8 Patch Update #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Jumpshots for All Builds + 2k23 Patch Update.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/X-fvLOv3i1c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/X-fvLOv3i1c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/X-fvLOv3i1c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-30T19:31:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lr4I7rxg-_Fi_dcRZSGz6bhIS0w",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8soeCnbFuoA"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-29T19:31:24Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "Best Build in NBA 2K23 : How to Make Best 6’10 Banchero Build in 2K23 #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Best Forward Build + How to Make Best Builds in 2K23.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8soeCnbFuoA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8soeCnbFuoA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8soeCnbFuoA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-29T19:31:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "cjnm8AetR0A5v-fRRA2m8AYo-WQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "FiY7yRh9Gr4"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-28T19:00:06Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Shooting Tips : How to Green More Shots in 2K23 with Lillard #nba2k23 #2k23 #2k",
+                "description": "2K23 Best Shooting Tips + How to Shoot in 2K23.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FiY7yRh9Gr4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FiY7yRh9Gr4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FiY7yRh9Gr4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-28T19:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lt0ZJ0HQw3-N31Se1b9vFoGMTKc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8WavPGBgf4Y"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-26T20:11:36Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Jumpshot VS : How Dame Lillard Shot Changed in 2K23 #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Best Jumpshot VS.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8WavPGBgf4Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8WavPGBgf4Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8WavPGBgf4Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-26T20:11:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "p-WfJee6HzWNHJEGeJPGR6ym0ks",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "7jziI9ODAG4"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-24T16:00:05Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Badges on Hall of Fame : Fearless Finisher Badge in 2K23 #nba2k23 #2k23 #2k",
+                "description": "Best Badges on NBA 2K23.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7jziI9ODAG4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7jziI9ODAG4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7jziI9ODAG4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-24T16:00:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xrUm4hkbrxBjgWTiGDu0N9hbhUE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ofj-GtL5nPQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-23T19:00:25Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Shooting Tips + Best Jumpshot Fades : Lebron vs Jordan in 2K23 #nba2k23 #2k23 #2k",
+                "description": "Lebron vs Jordan in NBA 2K23. 2K23 Shooting Tips + Best Jumpshot.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ofj-GtL5nPQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ofj-GtL5nPQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ofj-GtL5nPQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-23T19:00:25Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "XFnzDwTkkCJptn-IJdOmk-Wtqrw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "txUl6UUbTsA"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-22T19:00:24Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "Best Build in NBA 2K23 : How to Make Best 6&#39;8 Point Guard Build in 2K23 #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Best Point Guard Build + How to Make Best Builds in 2K23.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/txUl6UUbTsA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/txUl6UUbTsA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/txUl6UUbTsA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-22T19:00:24Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iJJRGw-yPnpfOTXyeBsYZDKdwto",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "JWrBJj1zits"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-19T22:30:02Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Shooting Tips + Best Jumpshot Fades : Devin Booker vs Beal in 2K23 #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Shooting Tips + Best Jumpshot Fade in 2K23.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JWrBJj1zits/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JWrBJj1zits/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JWrBJj1zits/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-19T22:30:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "RBulIyUbiRuxJ53_pkj41aAL7X8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "kABPu5nQW20"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-18T17:00:34Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Layup Packages : Iverson vs Curry in 2K23 #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Best Layup Packages + Steph Curry in 2K23.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kABPu5nQW20/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kABPu5nQW20/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kABPu5nQW20/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-18T17:00:34Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "37IIUpDjYi9L8Tnlt1GPe4h0dwI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4VcJ9Gdpk1w"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-16T21:29:26Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Shooting Tips : How to Green More Shots Kobe vs TMAC #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Best Shooting Tips + How to Green More Shots 2K23.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4VcJ9Gdpk1w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4VcJ9Gdpk1w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4VcJ9Gdpk1w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-16T21:29:26Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Fu5IJz-KiyiXjFZGkp_dv6e9rm4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_6aDTRZjZ4w"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-14T19:30:03Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Jumpshot Comparison : NBA 2K Evolution 2K23 Jimmy vs 2K16 #nba2k23 #2k23 #2k",
+                "description": "2K23 Best Jumpshot Comparison.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_6aDTRZjZ4w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_6aDTRZjZ4w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_6aDTRZjZ4w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-14T19:30:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Fh2HY5K8cr-XCEWFXA-9mb5RPSo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "unjZloTWuYg"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-12T21:46:09Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Dunk Packages : Fastest Dunks for Limitless Takeoff in 2K23 #nba2k23 #2k23 #2k",
+                "description": "NBA 2K23 Best Dunk Packages + Limitless Takeoff in 2K23.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/unjZloTWuYg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/unjZloTWuYg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/unjZloTWuYg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-12T21:46:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ISOZ-meQYRjrLyJDf9w6r5rJY58",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pdPJ6En6zXM"
+            },
+            "snippet": {
+                "publishedAt": "2023-06-10T19:57:12Z",
+                "channelId": "UC0d16AioQ0z-RzwAae3g08Q",
+                "title": "NBA 2K23 Best Dunk Packages : Jordan FT Dunk vs Lebron in 2K23 #nba2k23 #2k23 #2k",
+                "description": "Best Dunk Packages in 2K23 + NBA 2K23 How to Dunk.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pdPJ6En6zXM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pdPJ6En6zXM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pdPJ6En6zXM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "NBA2KLab",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-06-10T19:57:12Z"
+            }
+        }
+    ]
+}
